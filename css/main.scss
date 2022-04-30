@@ -1,0 +1,90 @@
+/*---------------------------------------------------------------------------*\
+                                    MAIN
+/*---------------------------------------------------------------------------*\
+
+/**
+  * CONTENTS
+  
+
+  * --------------------------------SETTINGS---------------------------------- 
+  *
+  * settings.................The aggregate file of all setting-related SCSS 
+  *                          files. This is the file "@use"d in main, or in any 
+  *                          other SCSS file.
+  * colors...................Colors used in the project, stored as CSS or SCSS 
+  *                          variables.
+  * fonts....................Fonts used in the project, stored as variables.
+
+
+  * ---------------------------------TOOLS------------------------------------ 
+  *
+  * tools....................The aggregate file of all tool-related SCSS 
+  *                          files. This is the file "@use"d in main, or in any 
+  *                          other SCSS file.
+   
+  
+  * --------------------------------GENERIC----------------------------------- 
+  * 
+  * generic..................The aggregate file of all generic SCSS 
+  *                          files. This is the file "@use"d in main.
+  * normalize................Normalize styles for a wide range of elements, fix
+  *                          bugs and browser inconsistencies, improves usability.
+  * reset....................Eric Meyer's css reset, pared down where 
+  *                          conflicting with Normalize and updated with a few
+  *                          items of my own.
+  * shared...................Shared declarations for elements
+  
+  
+  * -------------------------------ELEMENTS-----------------------------------
+  * 
+  * elements.................The aggregate file of all element-related SCSS 
+  *                          files. This is the file "@use"d in main.
+  *
+
+
+  * -------------------------------OBJECTS------------------------------------
+  * 
+  * objects..................The aggregate file of all object-related SCSS 
+  *                          files. This is the file "@use"d in main.
+  *
+
+
+  * ------------------------------COMPONENTS----------------------------------
+  * 
+  * components...............The aggregate file of all component-related SCSS 
+  *                          files. This is the file "@use"d in main.
+  *
+
+
+  * --------------------------------SCOPES------------------------------------
+  * 
+  * scopes...................The aggregate file of all scope-related SCSS 
+  *                          files. This is the file "@use"d in main.
+  *
+
+
+  * --------------------------------THEMES------------------------------------
+  * 
+  * themes...................The aggregate file of all theme-related SCSS 
+  *                          files. This is the file "@use"d in main.
+  *
+
+
+  * -------------------------------UTILITIES----------------------------------
+  * 
+  * utilities................The aggregate file of all utility SCSS files. This
+  *                          is the file "@use"d in main.
+  *
+
+
+*/
+
+@use "00-settings/settings";
+@use "01-tools/tools";
+@use "02-generic/generic";
+@use "03-elements/elements";
+@use "04-objects/objects";
+@use "05-components/components";
+@use "06-scopes/scopes";
+@use "07-themes/themes";
+@use "08-utilities/utilities";

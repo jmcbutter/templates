@@ -1,0 +1,19 @@
+/*---------------------------------------------------------------------------*\
+                                  GENERIC
+/*---------------------------------------------------------------------------*\
+
+/**
+  * CONTENTS
+  
+  * normalize................Normalize styles for a wide range of elements, fix
+  *                          bugs and browser inconsistencies, improves usability.
+  * reset....................Eric Meyer's css reset, pared down where 
+  *                          conflicting with Normalize and updated with a few
+  *                          items of my own.
+  * shared...................Shared declarations for elements
+  
+*/
+
+@use "normalize";
+@use "reset";
+@use "shared";
